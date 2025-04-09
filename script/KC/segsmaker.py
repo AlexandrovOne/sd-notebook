@@ -24,7 +24,7 @@ def Trashing():
     run = lambda cmd: subprocess.run(shlex.split(cmd), stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
     dirs1 = ['A1111', 'Forge', 'ComfyUI', 'ReForge', 'SwarmUI']
-    dirs2 = ['ckpt', 'lora', 'controlnet', 'svd', 'z123']
+    dirs2 = ['ckpt', 'lora', 'controlnet', 'svd', 'z123', 'adetailer', 'esrgan']
 
     paths = [Path(HOMEPATH) / name for name in dirs1] + [Path(TEMPPATH) / name for name in dirs2]
     for path in paths:
