@@ -327,7 +327,10 @@ def webui_req(U, W, M):
         f'https://huggingface.co/gutris1/webui/resolve/main/misc/8x_RealESRGAN.pth {u}',
         f'https://huggingface.co/gutris1/webui/resolve/main/misc/4x_foolhardy_Remacri.pth {u}',
         f'https://huggingface.co/subby2006/NMKD-YandereNeoXL/resolve/main/4x_NMKD-YandereNeoXL_200k.pth {u}',
-        f'https://huggingface.co/subby2006/NMKD-UltraYandere/resolve/main/4x_NMKD-UltraYandere_300k.pth {u}'
+        f'https://huggingface.co/subby2006/NMKD-UltraYandere/resolve/main/4x_NMKD-UltraYandere_300k.pth {u}',
+        f'https://huggingface.co/Phips/4xRealWebPhoto_v3_atd/blob/main/4xRealWebPhoto_v3_atd.safetensors {u}',
+        f'https://huggingface.co/Phips/4xRealWebPhoto_RGT/blob/main/4xRealWebPhoto_RGT.safetensors {u}',
+        f'https://huggingface.co/Phips/4xRealWebPhoto_v4_dat2/blob/main/4xRealWebPhoto_v4_dat2.safetensors {u}'
     ]
 
     line = scripts + upscalers
