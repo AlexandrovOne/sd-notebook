@@ -395,7 +395,8 @@ def tempe(line=''):
         'diffusers',
         'diffusion_models',
         'text_encoders',
-        'unet'
+        'unet',
+        'adetailer'
     ]
 
     for SUB in DIRS: Path(f'{TMP}/{SUB}').mkdir(parents=True, exist_ok=True)
