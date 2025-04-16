@@ -221,14 +221,15 @@ def sym_link(U, M):
         'ReForge': {
             'sym': [
                 f"rm -rf {M / 'Stable-diffusion/tmp_ckpt'} {M / 'Lora/tmp_lora'} {M / 'ControlNet'}",
-                f"rm -rf {M / 'svd'} {M / 'z123'} {TMP}/*"
+                f"rm -rf {M / 'svd'} {M / 'z123'} {M / 'adetailer'} {TMP}/*"
             ],
             'links': [
                 (TMP / 'ckpt', M / 'Stable-diffusion/tmp_ckpt'),
                 (TMP / 'lora', M / 'Lora/tmp_lora'),
                 (TMP / 'controlnet', M / 'ControlNet'),
                 (TMP / 'z123', M / 'z123'),
-                (TMP / 'svd', M / 'svd')
+                (TMP / 'svd', M / 'svd'),
+                (TMP / 'adetailer', M / 'adetailer')
             ]
         },
 
