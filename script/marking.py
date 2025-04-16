@@ -39,7 +39,7 @@ def setWebUIVAR(ui):
         'A1111': ('A1111', 'extensions', 'embeddings', 'VAE', 'Stable-diffusion', 'Lora', 'ESRGAN'),
         'Forge': ('Forge', 'extensions', 'embeddings', 'VAE', 'Stable-diffusion', 'Lora', 'ESRGAN'),
         'ComfyUI': ('ComfyUI', 'custom_nodes', 'embeddings', 'vae', 'checkpoints', 'loras', 'upscale_models'),
-        'ReForge': ('ReForge', 'extensions', 'embeddings', 'VAE', 'Stable-diffusion', 'Lora', 'ESRGAN'),
+        'ReForge': ('ReForge', 'extensions', 'embeddings', 'VAE', 'Stable-diffusion', 'Lora', 'ESRGAN', 'adetailer'),
         'FaceFusion': ('FaceFusion', None, None, None, None, None, None),
         'SDTrainer': ('SDTrainer', None, None, 'VAE', 'sd-models', None, None),
         'SwarmUI': ('SwarmUI', 'Extensions', 'Embeddings', 'VAE', 'Stable-Diffusion', 'Lora', 'upscale_models')
