@@ -291,7 +291,7 @@ def sym_link(U, M):
 
     cfg = configs.get(U)
     [SyS(f'{cmd}') for cmd in cfg['sym']]
-    if U in ['A1111', 'Forge', 'ReForge']: [(M / d).mkdir(parents=True, exist_ok=True) for d in ['Lora', 'ESRGAN']]
+    if U in ['A1111', 'Forge', 'ReForge']: [(M / d).mkdir(parents=True, exist_ok=True) for d in ['Lora', 'ESRGAN', 'adetailer']]
     [SyS(f'ln -s {src} {tg}') for src, tg in cfg['links']]
 
 def webui_req(U, W, M):
