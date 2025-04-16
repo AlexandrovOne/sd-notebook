@@ -10,3 +10,6 @@
 --depth 1 https://github.com/gutris1/Scroll-Bar
 --depth 1 https://github.com/gutris1/timer_timer
 --depth 1 https://github.com/gutris1/sd-simple-dimension-preset
+--depth 1 https://github.com/Haoming02/sd-webui-mosaic-outpaint
+--depth 1 https://github.com/Haoming02/sd-forge-couple
+--depth 1 https://github.com/Haoming02/sd-webui-image-comparison
